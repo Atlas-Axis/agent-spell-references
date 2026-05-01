@@ -6,8 +6,7 @@
 > [!NOTE]
 > ### Notes on the test of the template
 > - The **[ADDED]** marker is used to highlight parts that are missing in the original doc and were written by us.
-> - The **[SKIPPED]** marker is used to avoid populating a lot of information in this example, since the structure will follow the same format as already illustrated.
-> - The **[MISSING]** marker is used where the original source material does not provide the required information.
+> - The **[SKIPPED]**/**[MISSING]** marker is used to avoid populating a lot of missing information, since the structure will follow the same format as already illustrated.
 
 ## Introduction
 
