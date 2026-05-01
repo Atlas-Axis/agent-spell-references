@@ -1,10 +1,12 @@
 # [Template test] Technical scope for non-spell (Morpho Vault deployment)
 
-> **Source technical scope:** https://hackmd.io/@b7L--GszSxO5h1-wpkPN-Q/Hk6J_hg5bl
+> [!IMPORTANT]
+> Source technical scope: https://hackmd.io/@b7L--GszSxO5h1-wpkPN-Q/Hk6J_hg5bl
 
-> ## Notes on the test of the template
-> - **Orange text** highlights parts that are missing in the original doc and were written by us as an example.
-> - **Skipped/missing** is used to avoid populating a lot of missing information, since the structure will follow the same format as already illustrated.
+> [!NOTE]
+> ### Notes on the test of the template
+> - The **[ADDED]** marker is used to highlight parts that are missing in the original doc and were written by us.
+> - The **[SKIPPED]** marker is used to avoid populating a lot of missing information, since the structure will follow the same format as already illustrated.
 
 ## Introduction
 
@@ -19,13 +21,13 @@ Deploy five Morpho Vault V2 instances operated by the sky.money curator on Ether
 - All deployment scripts, tests, and configurations are open-source: https://github.com/soterlabs/morpho-vault-v2-deployment
 
 ### The reason(s) behind this update
-**[EXAMPLE / to be filled]** Skybase expansion into new markets.
+**[ADDED]** Skybase expansion into new markets.
 
 ### Timing of this update (in stages, if needed)
 All vault deployments were already performed.
 
 ## Relevant audits
-**[NOTE]** All listed contracts were deployed via Morpho's official factory contracts. No contract was directly deployed by a deployer.
+**[ADDED]** All listed contracts were deployed via Morpho's official factory contracts. No contract was directly deployed by a deployer.
 
 ## Trusted addresses
 
@@ -51,8 +53,8 @@ All vault deployments were already performed.
      - If deployed by a factory
        - Contract being called: `VaultV2Factory`
        - External docs page with this address: https://docs.morpho.org/get-started/resources/addresses/#morpho-v2-contracts
-       - **[EXAMPLE / to be filled]** Function being called: [`createVaultV2(address owner, address asset, bytes32 salt)`](https://etherscan.io/address/0xA1D94F746dEfa1928926b84fB2596c06926C0405#code#F1#L14)
-       - **[EXAMPLE / to be filled]** Function arguments:
+       - **[ADDED]** Function being called: [`createVaultV2(address owner, address asset, bytes32 salt)`](https://etherscan.io/address/0xA1D94F746dEfa1928926b84fB2596c06926C0405#code#F1#L14)
+       - **[ADDED]** Function arguments:
          1. `address owner`
             - Argument value: `0xcFF1ADB9E91e69E5Bf05E324DedC558Dcf7F5E34`
             - External source / verification / confirmer: the deployer
@@ -63,20 +65,20 @@ All vault deployments were already performed.
             - Argument value: `0x809532779d0622b4d7051d65b57d597a83157c25d3b021ecc1bcfb9861d7e2e9`
             - External source / verification / confirmer: not explained or listed in the forum post
    - Additional parameters configured on the contract by a privileged actor:
-     - **[EXAMPLE]** No additional transactions were made
+     - **[ADDED]** No additional transactions were made
    - Ownership, roles, privilege callers:
      1. Owner
         - What actions can this role perform: Set curator, sentinels, transfer ownership
         - Address: https://etherscan.io/address/0x3F32bC09d41eE699844F8296e806417D6bf61Bba
-        - External source / verification / confirmer: **Missing**
+        - External source / verification / confirmer: **[SKIPPED]**
      2. Curator
         - What actions can this role perform: Timelocked actions: adapters, caps, allocators
         - Address: https://etherscan.io/address/0x3F32bC09d41eE699844F8296e806417D6bf61Bba
-        - External source / verification / confirmer: **Missing**
+        - External source / verification / confirmer: **[SKIPPED]**
      3. Sentinel
         - What actions can this role perform: Revoke pending actions, emergency controls
         - Address: https://etherscan.io/address/0x3F32bC09d41eE699844F8296e806417D6bf61Bba
-        - External source / verification / confirmer: **Missing**
+        - External source / verification / confirmer: **[SKIPPED]**
    - Source code verified on block explorer: **Yes**
    - The deployer no longer has a privileged role: **Yes**
 
@@ -88,8 +90,8 @@ All vault deployments were already performed.
      - If deployed by a factory
        - Contract being called: https://etherscan.io/address/0x3A7bB36Ee3f3eE32A60e9f2b33c1e5f2E83ad766#code
        - External docs page with this address: https://docs.morpho.org/get-started/resources/addresses/#morpho-v2-contracts
-       - **[EXAMPLE / to be filled]** Function being called: [`createMorphoChainlinkOracleV2(...)`](https://etherscan.io/address/0x3A7bB36Ee3f3eE32A60e9f2b33c1e5f2E83ad766#code#F1#L25)
-       - **[EXAMPLE / to be filled]** Function arguments:
+       - **[ADDED]** Function being called: [`createMorphoChainlinkOracleV2(...)`](https://etherscan.io/address/0x3A7bB36Ee3f3eE32A60e9f2b33c1e5f2E83ad766#code#F1#L25)
+       - **[ADDED]** Function arguments:
          1. `IERC4626 baseVault`
             - Argument value: `0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9`
             - External source / verification / confirmer: `STUSDS` from chainlog
@@ -141,57 +143,57 @@ All vault deployments were already performed.
        - Function arguments:
          1. `address parentVault`
             - Argument value: `0xf42bca228D9bd3e2F8EE65Fec3d21De1063882d4`
-            - External source / verification / confirmer: **[EXAMPLE]** VaultV2 from above
+            - External source / verification / confirmer: **[ADDED]** VaultV2 from above
    - Additional parameters configured on the contract by a privileged actor: None
    - Ownership, roles, privilege callers: None
    - Source code verified on the block explorer: **Yes**
    - The deployer no longer has a privileged role: **Yes**
 
 ### sky.money USDC Risk Capital
-1. **VaultV2** — _skipped_
-2. **MorphoChainlinkOracleV2** — _skipped_
-3. **MorphoMarketV1AdapterV2** — _skipped_
+1. **VaultV2** — **[SKIPPED]**
+2. **MorphoChainlinkOracleV2** — **[SKIPPED]**
+3. **MorphoMarketV1AdapterV2** — **[SKIPPED]**
 
 ### sky.money USDT Risk Capital
-1. **VaultV2** — _skipped_
-2. **MorphoChainlinkOracleV2** — _skipped_
-3. **MorphoMarketV1AdapterV2** — _skipped_
+1. **VaultV2** — **[SKIPPED]**
+2. **MorphoChainlinkOracleV2** — **[SKIPPED]**
+3. **MorphoMarketV1AdapterV2** — **[SKIPPED]**
 
 ### sky.money USDT Savings
-1. **VaultV2** — _skipped_
-2. **MorphoChainlinkOracleV2 (Pre-existing)** — _skipped_
+1. **VaultV2** — **[SKIPPED]**
+2. **MorphoChainlinkOracleV2 (Pre-existing)** — **[SKIPPED]**
 3. **MorphoMarketV1AdapterV2**
    > **Note:** This vault reuses an existing sUSDS/USDT market on Morpho Blue. No new oracle or market was created, only the vault and adapter were deployed.
-   - _skipped_
+   - **[SKIPPED]**
 
 ### sky.money USDS Flagship
-1. **VaultV2** — _skipped_
-2. **MorphoMarketV1AdapterV2** — _skipped_
+1. **VaultV2** — **[SKIPPED]**
+2. **MorphoMarketV1AdapterV2** — **[SKIPPED]**
 
 ## Pre-configurations
-**[EXAMPLE]** No additional pre-configurations were made by the deployer.
+**[ADDED]** No additional pre-configurations were made by the deployer.
 
 ## Pre-requirements
-**[EXAMPLE]** No specific pre-requirements.
+**[ADDED]** No specific pre-requirements.
 
 ## Proposed actions
-**[EXAMPLE]** Announce the deployments to users.
+**[ADDED]** Announce the deployments to users.
 
 ## Post-checks
 
 1. **Ensure the correctness of the scripts**
-   - **[EXAMPLE]** What will be done: Run deployment scripts in-memory on an Anvil fork. Verify scripts produce correct vault configuration, oracle parameters, market creation, and deposit/withdraw operations.
-   - **[EXAMPLE]** How it will be done: test scripts in `morpho-vault-v2-deployment/test` (pattern: `vault_name/DeployVaultNameScript.t.sol`)
+   - **[ADDED]** What will be done: Run deployment scripts in-memory on an Anvil fork. Verify scripts produce correct vault configuration, oracle parameters, market creation, and deposit/withdraw operations.
+   - **[ADDED]** How it will be done: test scripts in `morpho-vault-v2-deployment/test` (pattern: `vault_name/DeployVaultNameScript.t.sol`)
      https://github.com/soterlabs/morpho-vault-v2-deployment/tree/393f3a640fef8795927c0f8011d71025dcd83e5e/test
-   - **[EXAMPLE]** Expected outcome: No errors.
-   - **[EXAMPLE]** Who will perform this action: The deployer.
+   - **[ADDED]** Expected outcome: No errors.
+   - **[ADDED]** Who will perform this action: The deployer.
 
 2. **Ensure the correctness of the deployed contracts**
-   - **[EXAMPLE]** What will be done: Run against already-deployed contracts on mainnet (pinned to deployment block)
-   - **[EXAMPLE]** How it will be done: modify and run a test in `morpho-vault-v2-deployment/test` (pattern: `vault_name/DeployedVaultNameVault.t.sol`)
+   - **[ADDED]** What will be done: Run against already-deployed contracts on mainnet (pinned to deployment block)
+   - **[ADDED]** How it will be done: modify and run a test in `morpho-vault-v2-deployment/test` (pattern: `vault_name/DeployedVaultNameVault.t.sol`)
      https://github.com/soterlabs/morpho-vault-v2-deployment/tree/393f3a640fef8795927c0f8011d71025dcd83e5e/test
-   - **[EXAMPLE]** Expected outcome: on-chain state matches expected configuration
-   - **[EXAMPLE]** Who will perform this action: The deployer.
+   - **[ADDED]** Expected outcome: on-chain state matches expected configuration
+   - **[ADDED]** Who will perform this action: The deployer.
 
 ## Technical risk self-assessment
 
@@ -219,12 +221,12 @@ All vault deployments were already performed.
 
 1. **Sentinel role can revoke pending actions**
    - When to do: When pending time-locked actions need to be revoked, or emergency intervention is required
-   - How to do it: Sentinel msig (https://etherscan.io/address/0x3F32bC09d41eE699844F8296e806417D6bf61Bba) can revoke pending actions by calling _skipped_
-   - Known side-effects: **Missing**
-   - Is covered by monitoring: **Missing**
+   - How to do it: Sentinel msig (https://etherscan.io/address/0x3F32bC09d41eE699844F8296e806417D6bf61Bba) can revoke pending actions by calling **[SKIPPED]**
+   - Known side-effects: **[SKIPPED]**
+   - Is covered by monitoring: **[SKIPPED]**
 
 ## Monitoring
-**Missing**
+**[SKIPPED]**
 
 ## Research and additional notes
 
