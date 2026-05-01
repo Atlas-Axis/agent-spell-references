@@ -10,12 +10,19 @@ Canonical reference materials for Agent teams preparing and reviewing Spells wit
 | `deployment-checklist.md` | Deployment checklist and best practices |
 | `examples/` | Worked examples showing completed templates for real use cases |
 
-## Before you start
+## Getting started
 
-Before using any reference material from this repository, verify that your copy is fully aligned with the latest version by pulling from main:
+Clone this repository:
 
 ```bash
-git pull origin main
+git clone https://github.com/Atlas-Axis/agent-spell-references.git
 ```
 
-Do not modify the template files (`technical-scope-template.md`, `deployment-checklist.md`) directly. When filling out a template for a Spell, copy it to a new file with a descriptive name (e.g., `technical-scope-xyz-spell.md`) and work from the copy. This ensures `git pull` always updates the templates cleanly without merge conflicts.
+## Before you start
+
+> [!IMPORTANT]
+> Before using any reference material, you must pull the latest version to ensure your copy is aligned with the source repository:
+> ```bash
+> cd agent-spell-references
+> git pull origin main
+> ```
