@@ -155,26 +155,58 @@ All vault deployments were already performed.
     - The deployer no longer has a privileged role: **[ADDED]** Yes
 
 ### sky.money USDC Risk Capital
-1. **VaultV2** — **[SKIPPED]**
-2. **MorphoChainlinkOracleV2** — **[SKIPPED]**
-3. **MorphoMarketV1AdapterV2** — **[SKIPPED]**
+
+1. **VaultV2**
+
+    **[SKIPPED]**
+
+2. **MorphoChainlinkOracleV2**
+
+    **[SKIPPED]**
+
+3. **MorphoMarketV1AdapterV2**
+
+    **[SKIPPED]**
 
 ### sky.money USDT Risk Capital
-1. **VaultV2** — **[SKIPPED]**
-2. **MorphoChainlinkOracleV2** — **[SKIPPED]**
-3. **MorphoMarketV1AdapterV2** — **[SKIPPED]**
+
+1. **VaultV2**
+
+    **[SKIPPED]**
+
+2. **MorphoChainlinkOracleV2**
+
+    **[SKIPPED]**
+
+3. **MorphoMarketV1AdapterV2**
+
+    **[SKIPPED]**
 
 ### sky.money USDT Savings
-1. **VaultV2** — **[SKIPPED]**
-2. **MorphoChainlinkOracleV2 (Pre-existing)** — **[SKIPPED]**
+
+1. **VaultV2**
+
+    **[SKIPPED]**
+
+2. **MorphoChainlinkOracleV2 (Pre-existing)**
+
+    **[SKIPPED]**
+
 3. **MorphoMarketV1AdapterV2**
+
     > **Note:** This vault reuses an existing sUSDS/USDT market on Morpho Blue. No new oracle or market was created, only the vault and adapter were deployed.
 
     **[SKIPPED]**
 
 ### sky.money USDS Flagship
-1. **VaultV2** — **[SKIPPED]**
-2. **MorphoMarketV1AdapterV2** — **[SKIPPED]**
+
+1. **VaultV2**
+
+    **[SKIPPED]**
+
+2. **MorphoMarketV1AdapterV2**
+
+    **[SKIPPED]**
 
 ## Pre-configurations
 **[ADDED]** No additional pre-configurations were made by the deployer.
