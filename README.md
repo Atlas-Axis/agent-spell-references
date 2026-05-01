@@ -18,4 +18,4 @@ Before using any reference material from this repository, verify that your copy 
 git pull origin main
 ```
 
-Do not modify the template files (`technical-scope-template.md`, `deployment-checklist.md`) directly. When filling out a template for a Spell, copy it to a new file with a descriptive name (e.g., `technical-scope-may-2026-spell.md`) and work from the copy. This ensures `git pull` always updates the templates cleanly without merge conflicts.
+Do not modify the template files (`technical-scope-template.md`, `deployment-checklist.md`) directly. When filling out a template for a Spell, copy it to a new file with a descriptive name (e.g., `technical-scope-xyz-spell.md`) and work from the copy. This ensures `git pull` always updates the templates cleanly without merge conflicts.
