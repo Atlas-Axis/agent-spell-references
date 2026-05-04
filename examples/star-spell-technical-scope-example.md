@@ -84,31 +84,31 @@ This update proposes eight changes across Ethereum, Avalanche, and Sky Core to e
             - **[ADDED]** Function arguments
                 1. **[ADDED]** `PoolId poolId`
                     - Argument value: `281474976710662`
-                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[SKIPPED]**
+                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
                 2. **[ADDED]** `ShareClassId scId`
                     - Argument value: `0x00010000000000060000000000000001`
-                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[SKIPPED]**
+                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
                 3. **[ADDED]** `AssetId assetId`
                     - Argument value: `5192296858534827628530496329220102`
-                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[SKIPPED]**
+                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
                 4. **[ADDED]** `bytes32 vaultOrFactory`
                     - Argument value: `0x55cde53b7dbc24336e34ffe233af8df10f72f0be000000000000000000000000`
-                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[SKIPPED]**
+                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
                 5. **[ADDED]** `VaultUpdateKind kind`
                     - Argument value: `0`
                     - External source of the value or an explanation of how this value can be verified, and who has to confirm it: [DeployAndLink](https://etherscan.io/address/0xd9531AC47928c3386346f82d9A2478960bf2CA7B#code#F9#L46)
                 6. **[ADDED]** `uint128 extraGasLimit`
                     - Argument value: `0`
-                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[SKIPPED]**
+                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
                 7. **[ADDED]** `address refund`
                     - Argument value: `0x742d100011ffbc6e509e39dbcb0334159e86be1e`
                     - External source of the value or an explanation of how this value can be verified, and who has to confirm it: The deployer
     - Additional parameters configured on the contract by a privileged actor:
-        **[SKIPPED]**
+        **[MISSING]**
     - Ownership, roles, privilege callers:
-        **[SKIPPED]**
+        **[MISSING]**
     - Source code is verified on the block explorer: **[ADDED]** Yes
-    - The deployer no longer has a privileged role: **[SKIPPED]**
+    - The deployer no longer has a privileged role: **[MISSING]**
 
 2. **New Avalanche ForeignController v1.8.0**
     - Chain name: Avalanche
@@ -166,21 +166,43 @@ This update proposes eight changes across Ethereum, Avalanche, and Sky Core to e
             - External docs page with this address: [safe_proxy_factory v1.4.1 from the docs](https://docs.safe.global/advanced/smart-account-supported-networks?version=v1.4.1&page=26&expand=43114)
             - Function being called: `deploy_plain_pool(_name: String[32], _symbol: String[10], _coins: DynArray[address, MAX_COINS], _A: uint256, _fee: uint256, _offpeg_fee_multiplier: uint256, _ma_exp_time: uint256, _implementation_idx: uint256, _asset_types: DynArray[uint8, MAX_COINS], _method_ids: DynArray[bytes4, MAX_COINS], _oracles: DynArray[address, MAX_COINS])`
             - Function arguments:
-                1. `_name`: `USDC/USDS` — **[SKIPPED]**
-                2. `_symbol`: `USDCUSDS` — **[SKIPPED]**
-                3. `_coins`: `["0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E","0x86Ff09db814ac346a7C6FE2Cd648F27706D1D470"]` — **[SKIPPED]**
-                4. `_A`: `5969` — **[SKIPPED]**
-                5. `_fee`: `268000` — **[SKIPPED]**
-                6. `_offpeg_fee_multiplier`: `150000000000` — **[SKIPPED]**
-                7. `_ma_exp_time`: `866` — **[SKIPPED]**
-                8. `_implementation_idx`: `0` — **[SKIPPED]**
-                9. `_asset_types`: `["0","0"]` — **[SKIPPED]**
-                10. `_method_ids`: `["0x00000000","0x00000000"]` — **[SKIPPED]**
-                11. `_oracles`: `["0x0000000000000000000000000000000000000000","0x0000000000000000000000000000000000000000"]` — **[SKIPPED]**
-    - Additional parameters configured on the contract by a privileged actor: **[SKIPPED]**
-    - Ownership, roles, privilege callers: **[SKIPPED]**
+                1. `_name: String[32]`
+                    - Argument value: `USDC/USDS`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                2. `_symbol: String[10]`
+                    - Argument value: `USDCUSDS`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                3. `_coins: DynArray[address, MAX_COINS]`
+                    - Argument value: `["0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E","0x86Ff09db814ac346a7C6FE2Cd648F27706D1D470"]`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                4. `_A: uint256`
+                    - Argument value: `5969`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                5. `_fee: uint256`
+                    - Argument value: `268000`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                6. `_offpeg_fee_multiplier: uint256`
+                    - Argument value: `150000000000`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                7. `_ma_exp_time: uint256`
+                    - Argument value: `866`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                8. `_implementation_idx: uint256`
+                    - Argument value: `0`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                9. `_asset_types: DynArray[uint8, MAX_COINS]`
+                    - Argument value: `["0","0"]`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                10. `_method_ids: DynArray[bytes4, MAX_COINS]`
+                    - Argument value: `["0x00000000","0x00000000"]`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                11. `_oracles: DynArray[address, MAX_COINS]`
+                    - Argument value: `["0x0000000000000000000000000000000000000000","0x0000000000000000000000000000000000000000"]`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+    - Additional parameters configured on the contract by a privileged actor: **[MISSING]**
+    - Ownership, roles, privilege callers: **[MISSING]**
     - Source code is verified on the block explorer: **[ADDED]** Yes
-    - The deployer no longer has a privileged role: **[SKIPPED]**
+    - The deployer no longer has a privileged role: **[MISSING]**
 
 4. **ALM Relayer 2 (New SafeProxy msig wallet controlled by Grove)**
     - Chain name: Avalanche
@@ -201,7 +223,7 @@ This update proposes eight changes across Ethereum, Avalanche, and Sky Core to e
                 3. `uint256 saltNonce`
                     - Argument value: `0`
                     - External source of the value or an explanation of how this value can be verified, and who has to confirm it:
-    - Additional parameters configured on the contract by a privileged actor: **[SKIPPED]**
+    - Additional parameters configured on the contract by a privileged actor: **[MISSING]**
     - Ownership, roles, privilege callers:
         1. **[ADDED]** Owner
             - What actions can this role perform: Any
@@ -359,7 +381,7 @@ These actions were part of the [same multisig transaction that deployed the new 
             - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
 
 3. **Set USDS SkyLink (LayerZero V2) transfer rate limits from Ethereum to Avalanche, using the USDS OFT Adapter address to derive the rate limit key**
-    - Business reason behind this action: **[SKIPPED]**
+    - Business reason behind this action: **[MISSING]**
     - Who will perform this action: Grove spell
     - Important arguments:
         1. Asset
@@ -373,7 +395,7 @@ These actions were part of the [same multisig transaction that deployed the new 
             - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
 
 4. **Replace the existing Avalanche ForeignController v1.6.0 with the pre-deployed v1.8.0 controller, migrate existing rate limits and integrations, and configure ALM Relayer 2 as a relayer on the new controller**
-    - Business reason behind this action: **[SKIPPED]**
+    - Business reason behind this action: **[MISSING]**
     - Who will perform this action: Grove spell
     - Important arguments:
         1. Existing ForeignController (to be replaced)
@@ -439,19 +461,19 @@ These actions were part of the [same multisig transaction that deployed the new 
 
 ## Post-checks
 
-**[SKIPPED]**
+**[MISSING]**
 
 ## Technical risk self-assessment
 
-**[SKIPPED]**
+**[MISSING]**
 
 ## Emergency actions
 
-**[SKIPPED]**
+**[MISSING]**
 
 ## Monitoring
 
-**[SKIPPED]**
+**[MISSING]**
 
 ## Research and additional notes
 
