@@ -166,17 +166,39 @@ This update proposes eight changes across Ethereum, Avalanche, and Sky Core to e
             - External docs page with this address: [safe_proxy_factory v1.4.1 from the docs](https://docs.safe.global/advanced/smart-account-supported-networks?version=v1.4.1&page=26&expand=43114)
             - Function being called: `deploy_plain_pool(_name: String[32], _symbol: String[10], _coins: DynArray[address, MAX_COINS], _A: uint256, _fee: uint256, _offpeg_fee_multiplier: uint256, _ma_exp_time: uint256, _implementation_idx: uint256, _asset_types: DynArray[uint8, MAX_COINS], _method_ids: DynArray[bytes4, MAX_COINS], _oracles: DynArray[address, MAX_COINS])`
             - Function arguments:
-                1. `_name`: `USDC/USDS` — **[SKIPPED]**
-                2. `_symbol`: `USDCUSDS` — **[SKIPPED]**
-                3. `_coins`: `["0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E","0x86Ff09db814ac346a7C6FE2Cd648F27706D1D470"]` — **[SKIPPED]**
-                4. `_A`: `5969` — **[SKIPPED]**
-                5. `_fee`: `268000` — **[SKIPPED]**
-                6. `_offpeg_fee_multiplier`: `150000000000` — **[SKIPPED]**
-                7. `_ma_exp_time`: `866` — **[SKIPPED]**
-                8. `_implementation_idx`: `0` — **[SKIPPED]**
-                9. `_asset_types`: `["0","0"]` — **[SKIPPED]**
-                10. `_method_ids`: `["0x00000000","0x00000000"]` — **[SKIPPED]**
-                11. `_oracles`: `["0x0000000000000000000000000000000000000000","0x0000000000000000000000000000000000000000"]` — **[SKIPPED]**
+                1. `_name: String[32]`
+                    - Argument value: `USDC/USDS`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                2. `_symbol: String[10]`
+                    - Argument value: `USDCUSDS`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                3. `_coins: DynArray[address, MAX_COINS]`
+                    - Argument value: `["0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E","0x86Ff09db814ac346a7C6FE2Cd648F27706D1D470"]`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                4. `_A: uint256`
+                    - Argument value: `5969`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                5. `_fee: uint256`
+                    - Argument value: `268000`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                6. `_offpeg_fee_multiplier: uint256`
+                    - Argument value: `150000000000`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                7. `_ma_exp_time: uint256`
+                    - Argument value: `866`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                8. `_implementation_idx: uint256`
+                    - Argument value: `0`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                9. `_asset_types: DynArray[uint8, MAX_COINS]`
+                    - Argument value: `["0","0"]`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                10. `_method_ids: DynArray[bytes4, MAX_COINS]`
+                    - Argument value: `["0x00000000","0x00000000"]`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
+                11. `_oracles: DynArray[address, MAX_COINS]`
+                    - Argument value: `["0x0000000000000000000000000000000000000000","0x0000000000000000000000000000000000000000"]`
+                    - External source of the address or an explanation of how this address can be verified, and who has to confirm it: **[MISSING]**
     - Additional parameters configured on the contract by a privileged actor: **[MISSING]**
     - Ownership, roles, privilege callers: **[MISSING]**
     - Source code is verified on the block explorer: **[ADDED]** Yes
