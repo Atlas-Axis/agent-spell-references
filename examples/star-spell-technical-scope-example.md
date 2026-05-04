@@ -220,7 +220,103 @@ This update proposes eight changes across Ethereum, Avalanche, and Sky Core to e
 
 ## Pre-configurations
 
-**[SKIPPED]** — 17 pre-configuration items (share price updates and notifications for pools `281474976710659`, `281474976710660`, `281474976710662`, and `281474976710667`) were performed as part of the same multisig transactions that deployed the contracts above. See the deployment transaction traces for details.
+These actions were part of the [same multisig transaction that deployed the new vault](https://dashboard.tenderly.co/tx/0x1597baa75da49d95a83818201ecad2aaf77b4f08db694d5f9fa24193bab67710).
+
+1. **Update share price for the pool** `281474976710659` to `1.026620520499990000`
+
+    **[SKIPPED]**
+
+2. **Notify share price for the pool** `281474976710659` **centrifugeId `3`**
+
+    **[SKIPPED]**
+
+3. **Notify share price for the pool** `281474976710659` **centrifugeId `1`**
+
+    **[SKIPPED]**
+
+4. **Notify share price for the pool** `281474976710659` **centrifugeId `5`**
+
+    **[SKIPPED]**
+
+5. **Notify share price for the pool** `281474976710659` **centrifugeId `2`**
+
+    **[SKIPPED]**
+
+6. **Notify share price for the pool** `281474976710659` **centrifugeId `6`**
+
+    **[SKIPPED]**
+
+7. **Notify share price for the pool** `281474976710659` **centrifugeId `1`**
+
+    **[SKIPPED]**
+
+8. **Update share price for the pool** `281474976710660` to `1.020342178518390000`
+
+    **[SKIPPED]**
+
+9. **Notify share price for the pool** `281474976710660` **centrifugeId `5`**
+
+    **[SKIPPED]**
+
+10. **Notify share price for the pool** `281474976710660` **centrifugeId `1`**
+
+    **[SKIPPED]**
+
+11. **Notify share price for the pool** `281474976710660` **centrifugeId `2`**
+
+    **[SKIPPED]**
+
+12. **Notify share price for the pool** `281474976710660` **centrifugeId `3`**
+
+    **[SKIPPED]**
+
+13. **Notify share price for the pool** `281474976710660` **centrifugeId `6`**
+
+    **[SKIPPED]**
+
+14. **Notify asset price for the pool** `281474976710662`
+    - Transaction trace URL: [Same tx as the deployment, done via multicall](https://dashboard.tenderly.co/tx/0x13fe777b10a2d3404d94314a0fe11db7b32b4ddf6fcdec1ccf5b66f70131e070?trace=0.3.1.7.0.1.0.0.2.0)
+    - Contract being called: Centrifuge Hub
+    - Function being called: [`notifyAssetPrice(PoolId poolId, ShareClassId scId, AssetId assetId, address refund)`](https://etherscan.io/address/0xA4A7Bb3831958463b3FE3E27A6a160F764341953#code#F1#L156)
+    - Function arguments:
+        1. `PoolId poolId`
+            - Argument value: `281474976710662`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
+        2. `ShareClassId scId`
+            - Argument value: `0x00010000000000060000000000000001`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
+        3. `AssetId assetId`
+            - Argument value: `5192296858534827628530496329220102`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
+        4. `address refund`
+            - Argument value: `0x742d100011ffbc6e509e39dbcb0334159e86be1e`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
+
+15. **Update share price for the pool** `281474976710667`
+    - Transaction trace URL: [Same tx as the deployment, done via multicall](https://dashboard.tenderly.co/tx/0x13fe777b10a2d3404d94314a0fe11db7b32b4ddf6fcdec1ccf5b66f70131e070?trace=0.3.1.7.0.1.0.0.2.0)
+    - Contract being called: Centrifuge Hub
+    - Function being called: [`updateSharePrice(PoolId poolId, ShareClassId scId, D18 pricePoolPerShare, uint64 computedAt)`](https://etherscan.io/address/0xA4A7Bb3831958463b3FE3E27A6a160F764341953#code#F1#L315)
+    - Function arguments:
+        1. `PoolId poolId`
+            - Argument value: `281474976710667`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
+        2. `ShareClassId scId`
+            - Argument value: `0x000100000000000b0000000000000001`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
+        3. `D18 pricePoolPerShare`
+            - Argument value: `993047025654000000`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
+        4. `uint64 computedAt`
+            - Argument value: `1774440000`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[MISSING]**
+
+16. **Notify share price for the pool** `281474976710667` **centrifugeId `1`**
+
+    **[SKIPPED]**
+
+17. **Notify share price for the pool** `281474976710667` **centrifugeId `10`**
+
+    **[SKIPPED]**
 
 ## Pre-requirements
 
