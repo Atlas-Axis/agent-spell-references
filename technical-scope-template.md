@@ -3,7 +3,7 @@
 > [!NOTE]
 > ### General rules on **filling out** the template
 > - No sections can be skipped or removed. If a section is non-applicable, provide a one-line explanation why it's not relevant.
-> - Grey callouts with hints should be removed from the filled-in template before posting.
+> - Note sections with hints should be removed from the filled-in template before posting.
 > - All addresses have to be in a checksummed format.
 
 ## Introduction
