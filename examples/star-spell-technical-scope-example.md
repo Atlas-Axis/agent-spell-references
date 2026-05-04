@@ -5,8 +5,8 @@
 
 > [!NOTE]
 > ### Notes on the test of the template
-> - The **[ADDED]** marker is used to highlight parts that are missing in the original doc and were written by us.
-> - The **[SKIPPED]**/**[MISSING]** marker is used to avoid populating a lot of missing information, since the structure will follow the same format as already illustrated.
+> - The orange text is used to highlight parts that are missing in the original doc and were written by us.
+> - The skipped/missing is used to avoid populating a lot of missing information, since the structure will follow the same format as already illustrated.
 
 ## Introduction
 
@@ -40,19 +40,19 @@ This update proposes eight changes across Ethereum, Avalanche, and Sky Core to e
 
 ### Timing of this update (in stages, if needed)
 
-- **[ADDED]** Star Spell crafted by April 13, 2026
-- **[ADDED]** Star Spell reviewed and handed over by April 16, 2026
+- Star Spell crafted by April 13, 2026
+- Star Spell reviewed and handed over by April 16, 2026
 - Core spell handed over by April 23, 2026
-- **[ADDED]** Executed on April 27, 2026 (due to enabled office hours)
+- Executed on April 27, 2026 (due to enabled office hours)
 
 ## Relevant audits
 
 1. Grove ALM Controller v1.8.0
     - External URL to the audit report: [Certora Audit](https://www.certora.com/reports/grove-alm) & [ChainSecurity Audit](https://www.chainsecurity.com/security-audit/grove-alm-controller-2)
-    - Exact commit at which the audit is concluded: **[ADDED]** [2c6e3d4](https://github.com/grove-labs/grove-alm-controller/tree/2c6e3d4297d5f244894d05f3dbbe47bcada34712)
+    - Exact commit at which the audit is concluded: [2c6e3d4](https://github.com/grove-labs/grove-alm-controller/tree/2c6e3d4297d5f244894d05f3dbbe47bcada34712)
     - Relevant scope of the audit:
-        - **[ADDED]** ForeignController.sol (item 5)
-    - Diff with another independent audit, if any: **[ADDED]** No diffs
+        - ForeignController.sol (item 5)
+    - Diff with another independent audit, if any: No diffs
 
 ## Trusted addresses
 
@@ -75,118 +75,118 @@ This update proposes eight changes across Ethereum, Avalanche, and Sky Core to e
 1. **JTRSY USDS Vault (Centrifuge V3)**
     - Chain name: Ethereum
     - Contract address (linked to the explorer): [eth:0x381f4f3b43c30b78c1f7777553236e57bb8ae9ff](https://etherscan.io/address/0x381f4f3b43c30b78c1f7777553236e57bb8ae9ff)
-    - **[ADDED]** Deployment transaction trace: [tx](https://dashboard.tenderly.co/tx/0x13fe777b10a2d3404d94314a0fe11db7b32b4ddf6fcdec1ccf5b66f70131e070)
+    - Deployment transaction trace: [tx](https://dashboard.tenderly.co/tx/0x13fe777b10a2d3404d94314a0fe11db7b32b4ddf6fcdec1ccf5b66f70131e070)
     - Code verification
         - If deployed by a factory
             - Contract being called: Centrifuge Hub
             - External docs page with this address: [Centrifuge docs](https://docs.centrifuge.io/developer/protocol/deployments/)
-            - Function being called: **[ADDED]** [`updateVault(PoolId poolId, ShareClassId scId, AssetId assetId, bytes32 vaultOrFactory, VaultUpdateKind kind, uint128 extraGasLimit, address refund)`](https://etherscan.io/address/0xA4A7Bb3831958463b3FE3E27A6a160F764341953#code#F1#L284)
-            - **[ADDED]** Function arguments
-                1. **[ADDED]** `PoolId poolId`
+            - Function being called: [`updateVault(PoolId poolId, ShareClassId scId, AssetId assetId, bytes32 vaultOrFactory, VaultUpdateKind kind, uint128 extraGasLimit, address refund)`](https://etherscan.io/address/0xA4A7Bb3831958463b3FE3E27A6a160F764341953#code#F1#L284)
+            - Function arguments
+                1. `PoolId poolId`
                     - Argument value: `281474976710662`
-                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[SKIPPED]**
-                2. **[ADDED]** `ShareClassId scId`
+                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: …skipped
+                2. `ShareClassId scId`
                     - Argument value: `0x00010000000000060000000000000001`
-                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[SKIPPED]**
-                3. **[ADDED]** `AssetId assetId`
+                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: …skipped
+                3. `AssetId assetId`
                     - Argument value: `5192296858534827628530496329220102`
-                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[SKIPPED]**
-                4. **[ADDED]** `bytes32 vaultOrFactory`
+                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: …skipped
+                4. `bytes32 vaultOrFactory`
                     - Argument value: `0x55cde53b7dbc24336e34ffe233af8df10f72f0be000000000000000000000000`
-                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[SKIPPED]**
-                5. **[ADDED]** `VaultUpdateKind kind`
+                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: …skipped
+                5. `VaultUpdateKind kind`
                     - Argument value: `0`
                     - External source of the value or an explanation of how this value can be verified, and who has to confirm it: [DeployAndLink](https://etherscan.io/address/0xd9531AC47928c3386346f82d9A2478960bf2CA7B#code#F9#L46)
-                6. **[ADDED]** `uint128 extraGasLimit`
+                6. `uint128 extraGasLimit`
                     - Argument value: `0`
-                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[SKIPPED]**
-                7. **[ADDED]** `address refund`
+                    - External source of the value or an explanation of how this value can be verified, and who has to confirm it: …skipped
+                7. `address refund`
                     - Argument value: `0x742d100011ffbc6e509e39dbcb0334159e86be1e`
                     - External source of the value or an explanation of how this value can be verified, and who has to confirm it: The deployer
     - Additional parameters configured on the contract by a privileged actor:
-        **[SKIPPED]**
+        …skipped
     - Ownership, roles, privilege callers:
-        **[SKIPPED]**
-    - Source code is verified on the block explorer: **[ADDED]** Yes
-    - The deployer no longer has a privileged role: **[SKIPPED]**
+        …skipped
+    - Source code is verified on the block explorer: Yes
+    - The deployer no longer has a privileged role: …skipped
 
 2. **New Avalanche ForeignController v1.8.0**
     - Chain name: Avalanche
     - Contract address (linked to the explorer): [`avax:0x4236B772BEeEAFF57550Aa392A0f227C0b908Ce7`](https://snowscan.xyz/address/0x4236b772beeeaff57550aa392a0f227c0b908ce7#code)
-    - **[ADDED]** Deployment transaction trace: [tx](https://snowscan.xyz/tx/0x698184883922cfc84f1935c686f1f989bf89077da51a4132b51ef415880b9050)
-    - **[ADDED]** If deployed by EOA
-        - **[ADDED]** Source code URL (at the audited commit hash): [https://github.com/grove-labs/grove-alm-controller/blob/2c6e3d4297d5f244894d05f3dbbe47bcada34712/src/ForeignController.sol](https://github.com/grove-labs/grove-alm-controller/blob/2c6e3d4297d5f244894d05f3dbbe47bcada34712/src/ForeignController.sol)
+    - Deployment transaction trace: [tx](https://snowscan.xyz/tx/0x698184883922cfc84f1935c686f1f989bf89077da51a4132b51ef415880b9050)
+    - If deployed by EOA
+        - Source code URL (at the audited commit hash): [https://github.com/grove-labs/grove-alm-controller/blob/2c6e3d4297d5f244894d05f3dbbe47bcada34712/src/ForeignController.sol](https://github.com/grove-labs/grove-alm-controller/blob/2c6e3d4297d5f244894d05f3dbbe47bcada34712/src/ForeignController.sol)
         - External URLs to the audit reports: [Certora Audit](https://www.certora.com/reports/grove-alm) & [ChainSecurity Audit](https://www.chainsecurity.com/security-audit/grove-alm-controller-2)
-        - Deployed bytecode is verifiable using `forge verify-bytecode` at the audited commit: **[ADDED]** Yes
-        - **[ADDED]** Constructor arguments:
-            1. **[ADDED]** `address admin_`
+        - Deployed bytecode is verifiable using `forge verify-bytecode` at the audited commit: Yes
+        - Constructor arguments:
+            1. `address admin_`
                 - Argument value: [`avax:0x4b803781828b76EaBF21AaF02e5ce23596b4d60c`](https://snowscan.xyz/address/0x4b803781828b76EaBF21AaF02e5ce23596b4d60c#code)
                 - External source of the value or an explanation of how this value can be verified, and who has to confirm it: `GROVE_EXECUTOR` on Avalanche
-            2. **[ADDED]** `address proxy_`
+            2. `address proxy_`
                 - Argument value: [`avax:0x7107DD8F56642327945294a18A4280C78e153644`](https://snowscan.xyz/address/0x7107DD8F56642327945294a18A4280C78e153644#code)
                 - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Grove's `ALM_PROXY` on Avalanche
-            3. **[ADDED]** `address rateLimits_`
+            3. `address rateLimits_`
                 - Argument value: [`avax:0x6ba2e6bCCe3d2A31F1e3e1d3e11CDffBaA002A21`](https://snowscan.xyz/address/0x6ba2e6bCCe3d2A31F1e3e1d3e11CDffBaA002A21#code)
                 - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Grove's `ALM_RATE_LIMITS` on Avalanche
-            4. **[ADDED]** `address psm_`
+            4. `address psm_`
                 - Argument value: [`avax:0x00000000000000000000000000000000DeaDBeef`](https://snowscan.xyz/address/0x00000000000000000000000000000000DeaDBeef#code)
                 - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Dead address, no PSM deployment on Avalanche
-            5. **[ADDED]** `address usdc_`
+            5. `address usdc_`
                 - Argument value: [`avax:0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E`](https://snowscan.xyz/address/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E#code)
                 - External source of the value or an explanation of how this value can be verified, and who has to confirm it: USDC on Avalanche from the [Circle docs](https://developers.circle.com/stablecoins/usdc-contract-addresses)
-            6. **[ADDED]** `address cctp_`
+            6. `address cctp_`
                 - Argument value: [`avax:0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d`](https://snowscan.xyz/address/0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d#code)
                 - External source of the value or an explanation of how this value can be verified, and who has to confirm it: CCTP TokenMessengerV2 address on Avalanche from the [Circle docs](https://developers.circle.com/cctp/references/contract-addresses#tokenmessengerv2)
-            7. **[ADDED]** `address pendleRouter_`
+            7. `address pendleRouter_`
                 - Argument value: [`avax:0x00000000000000000000000000000000DeaDBeef`](https://snowscan.xyz/address/0x00000000000000000000000000000000DeaDBeef#code)
                 - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Dead address, no Pendle on Avalanche
-            8. **[ADDED]** `address uniswapV3Router_`
+            8. `address uniswapV3Router_`
                 - Argument value: [`avax:0xbb00FF08d01D300023C629E8fFfFcb65A5a578cE`](https://snowscan.xyz/address/0xbb00FF08d01D300023C629E8fFfFcb65A5a578cE#code)
                 - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Uniswap `SwapRouter02` from [the Uniswap gov portal](https://gov.uniswap.org/t/official-uniswap-v3-deployments-list/24323/3)
-            9. **[ADDED]** `address uniswapV3PositionManager_`
+            9. `address uniswapV3PositionManager_`
                 - Argument value: [`avax:0x655C406EBFa14EE2006250925e54ec43AD184f8B`](https://snowscan.xyz/address/0x655C406EBFa14EE2006250925e54ec43AD184f8B#code)
                 - External source of the value or an explanation of how this value can be verified, and who has to confirm it: `NonfungiblePositionManager` from [the Uniswap gov portal](https://gov.uniswap.org/t/official-uniswap-v3-deployments-list/24323/3)
     - Additional parameters configured on the contract by a privileged actor:
-        **[ADDED]** None
+        None
     - Ownership, roles, privilege callers:
-        - **[ADDED]** DEFAULT_ADMIN_ROLE
+        - DEFAULT_ADMIN_ROLE
             - What actions can this role perform: [All admin actions](https://github.com/grove-labs/grove-alm-controller/blob/2c6e3d4297d5f244894d05f3dbbe47bcada34712/src/ForeignController.sol#L179-L268)
             - Address: [avax:0x4b803781828b76EaBF21AaF02e5ce23596b4d60c](https://snowscan.xyz/address/0x4b803781828b76EaBF21AaF02e5ce23596b4d60c#code)
             - External source of the address or an explanation of how this address can be verified, and who has to confirm it: Grove's Executor on Avalanche from the [original forum post](https://forum.skyeco.com/t/august-7-2025-proposed-changes-to-grove-for-upcoming-spell/26883)
-    - Source code is verified on the block explorer: **[ADDED]** Yes
-    - The deployer no longer has a privileged role: **[ADDED]** Yes
+    - Source code is verified on the block explorer: Yes
+    - The deployer no longer has a privileged role: Yes
 
 3. **USDS/USDC Curve Stableswap (Avalanche)**
     - Chain name: Avalanche
     - Contract address (linked to the explorer): [`avax:0xA9d7d3D7e68a0cae89FB33c736199172f405C8D3`](https://snowscan.xyz/address/0xa9d7d3d7e68a0cae89fb33c736199172f405c8d3#code)
-    - **[ADDED]** Deployment transaction trace: [tx](https://dashboard.tenderly.co/tx/0x1597baa75da49d95a83818201ecad2aaf77b4f08db694d5f9fa24193bab67710)
-    - **[ADDED]** Code verification
+    - Deployment transaction trace: [tx](https://dashboard.tenderly.co/tx/0x1597baa75da49d95a83818201ecad2aaf77b4f08db694d5f9fa24193bab67710)
+    - Code verification
         - If deployed by a factory
             - Contract being called: [CurveStableswapFactoryNG](https://snowscan.xyz/address/0x1764ee18e8B3ccA4787249Ceb249356192594585#code)
             - External docs page with this address: [safe_proxy_factory v1.4.1 from the docs](https://docs.safe.global/advanced/smart-account-supported-networks?version=v1.4.1&page=26&expand=43114)
             - Function being called: `deploy_plain_pool(_name: String[32], _symbol: String[10], _coins: DynArray[address, MAX_COINS], _A: uint256, _fee: uint256, _offpeg_fee_multiplier: uint256, _ma_exp_time: uint256, _implementation_idx: uint256, _asset_types: DynArray[uint8, MAX_COINS], _method_ids: DynArray[bytes4, MAX_COINS], _oracles: DynArray[address, MAX_COINS])`
             - Function arguments:
-                1. `_name`: `USDC/USDS` — **[SKIPPED]**
-                2. `_symbol`: `USDCUSDS` — **[SKIPPED]**
-                3. `_coins`: `["0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E","0x86Ff09db814ac346a7C6FE2Cd648F27706D1D470"]` — **[SKIPPED]**
-                4. `_A`: `5969` — **[SKIPPED]**
-                5. `_fee`: `268000` — **[SKIPPED]**
-                6. `_offpeg_fee_multiplier`: `150000000000` — **[SKIPPED]**
-                7. `_ma_exp_time`: `866` — **[SKIPPED]**
-                8. `_implementation_idx`: `0` — **[SKIPPED]**
-                9. `_asset_types`: `["0","0"]` — **[SKIPPED]**
-                10. `_method_ids`: `["0x00000000","0x00000000"]` — **[SKIPPED]**
-                11. `_oracles`: `["0x0000000000000000000000000000000000000000","0x0000000000000000000000000000000000000000"]` — **[SKIPPED]**
-    - Additional parameters configured on the contract by a privileged actor: **[SKIPPED]**
-    - Ownership, roles, privilege callers: **[SKIPPED]**
-    - Source code is verified on the block explorer: **[ADDED]** Yes
-    - The deployer no longer has a privileged role: **[SKIPPED]**
+                1. `_name`: `USDC/USDS` — …skipped
+                2. `_symbol`: `USDCUSDS` — …skipped
+                3. `_coins`: `["0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E","0x86Ff09db814ac346a7C6FE2Cd648F27706D1D470"]` — …skipped
+                4. `_A`: `5969` — …skipped
+                5. `_fee`: `268000` — …skipped
+                6. `_offpeg_fee_multiplier`: `150000000000` — …skipped
+                7. `_ma_exp_time`: `866` — …skipped
+                8. `_implementation_idx`: `0` — …skipped
+                9. `_asset_types`: `["0","0"]` — …skipped
+                10. `_method_ids`: `["0x00000000","0x00000000"]` — …skipped
+                11. `_oracles`: `["0x0000000000000000000000000000000000000000","0x0000000000000000000000000000000000000000"]` — …skipped
+    - Additional parameters configured on the contract by a privileged actor: …skipped
+    - Ownership, roles, privilege callers: …skipped
+    - Source code is verified on the block explorer: Yes
+    - The deployer no longer has a privileged role: …skipped
 
 4. **ALM Relayer 2 (New SafeProxy msig wallet controlled by Grove)**
     - Chain name: Avalanche
     - Contract address: [`avax:0x9187807e07112359C481870feB58f0c117a29179`](https://snowscan.xyz/address/0x9187807e07112359C481870feB58f0c117a29179#code)
-    - **[ADDED]** Deployment transaction trace: [tx](https://dashboard.tenderly.co/tx/0xd72a10c83613b3a4753b71e649857d26b6e18ef920714ca1a021f43ce815d8cc?trace=0.1.1.7.0.1.0.0.2.0)
-    - **[ADDED]** Code verification
+    - Deployment transaction trace: [tx](https://dashboard.tenderly.co/tx/0xd72a10c83613b3a4753b71e649857d26b6e18ef920714ca1a021f43ce815d8cc?trace=0.1.1.7.0.1.0.0.2.0)
+    - Code verification
         - If deployed by a factory
             - Contract being called: [`avax:0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67`](https://snowscan.xyz/address/0x4e1dcf7ad4e460cfd30791ccc4f9c8a4f820ec67#code) (SafeProxyFactory on Avalanche)
             - External docs page with this address: [safe_proxy_factory v1.4.1 from the docs](https://docs.safe.global/advanced/smart-account-supported-networks?version=v1.4.1&page=26&expand=43114)
@@ -201,49 +201,145 @@ This update proposes eight changes across Ethereum, Avalanche, and Sky Core to e
                 3. `uint256 saltNonce`
                     - Argument value: `0`
                     - External source of the value or an explanation of how this value can be verified, and who has to confirm it:
-    - Additional parameters configured on the contract by a privileged actor: **[SKIPPED]**
+    - Additional parameters configured on the contract by a privileged actor: …skipped
     - Ownership, roles, privilege callers:
-        1. **[ADDED]** Owner
+        1. Owner
             - What actions can this role perform: Any
             - Address: [`avax:0x95a97815bC8DE7F2C7E4e2eFAF576a638c4d3e9F`](https://snowscan.xyz/address/0x95a97815bC8DE7F2C7E4e2eFAF576a638c4d3e9F)
             - External source of the address or an explanation of how this address can be verified, and who has to confirm it: None
-        2. **[ADDED]** Owner
+        2. Owner
             - What actions can this role perform: Any
             - Address: [`avax:0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f`](https://snowscan.xyz/address/0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f)
             - External source of the address or an explanation of how this address can be verified, and who has to confirm it: None
-        3. **[ADDED]** Owner
+        3. Owner
             - What actions can this role perform: Any
             - Address: [`avax:0xDC3baED945ce9C2fc4f4F2F24a02539BCaa7C865`](https://snowscan.xyz/address/0xDC3baED945ce9C2fc4f4F2F24a02539BCaa7C865)
             - External source of the address or an explanation of how this address can be verified, and who has to confirm it: None
-    - Source code is verified on the block explorer: **[ADDED]** Yes
-    - The deployer no longer has a privileged role: **[ADDED]** Still has, as expected
+    - Source code is verified on the block explorer: Yes
+    - The deployer no longer has a privileged role: Still has, as expected
 
 ## Pre-configurations
 
-**[SKIPPED]** — 17 pre-configuration items (share price updates and notifications for pools `281474976710659`, `281474976710660`, `281474976710662`, and `281474976710667`) were performed as part of the same multisig transactions that deployed the contracts above. See the deployment transaction traces for details.
+These actions were part of the [same multisig transaction that deployed the new vault](https://dashboard.tenderly.co/tx/0x1597baa75da49d95a83818201ecad2aaf77b4f08db694d5f9fa24193bab67710).
+
+1. **Update share price for the pool** `281474976710659` to `1.026620520499990000`
+
+    …skipped
+
+2. **Notify share price for the pool** `281474976710659` **centrifugeId `3`**
+
+    …skipped
+
+3. **Notify share price for the pool** `281474976710659` **centrifugeId `1`**
+
+    …skipped
+
+4. **Notify share price for the pool** `281474976710659` **centrifugeId `5`**
+
+    …skipped
+
+5. **Notify share price for the pool** `281474976710659` **centrifugeId `2`**
+
+    …skipped
+
+6. **Notify share price for the pool** `281474976710659` **centrifugeId `6`**
+
+    …skipped
+
+7. **Notify share price for the pool** `281474976710659` **centrifugeId `1`**
+
+    …skipped
+
+8. **Update share price for the pool** `281474976710660` to `1.020342178518390000`
+
+    …skipped
+
+9. **Notify share price for the pool** `281474976710660` **centrifugeId `5`**
+
+    …skipped
+
+10. **Notify share price for the pool** `281474976710660` **centrifugeId `1`**
+
+    …skipped
+
+11. **Notify share price for the pool** `281474976710660` **centrifugeId `2`**
+
+    …skipped
+
+12. **Notify share price for the pool** `281474976710660` **centrifugeId `3`**
+
+    …skipped
+
+13. **Notify share price for the pool** `281474976710660` **centrifugeId `6`**
+
+    …skipped
+
+14. **Notify asset price for the pool** `281474976710662`
+    - Transaction trace URL: [Same tx as the deployment, done via multicall](https://dashboard.tenderly.co/tx/0x13fe777b10a2d3404d94314a0fe11db7b32b4ddf6fcdec1ccf5b66f70131e070?trace=0.3.1.7.0.1.0.0.2.0)
+    - Contract being called: Centrifuge Hub
+    - Function being called: [`notifyAssetPrice(PoolId poolId, ShareClassId scId, AssetId assetId, address refund)`](https://etherscan.io/address/0xA4A7Bb3831958463b3FE3E27A6a160F764341953#code#F1#L156)
+    - Function arguments:
+        1. `PoolId poolId`
+            - Argument value: `281474976710662`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Missing
+        2. `ShareClassId scId`
+            - Argument value: `0x00010000000000060000000000000001`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Missing
+        3. `AssetId assetId`
+            - Argument value: `5192296858534827628530496329220102`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Missing
+        4. `address refund`
+            - Argument value: `0x742d100011ffbc6e509e39dbcb0334159e86be1e`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Missing
+
+15. **Update share price for the pool** `281474976710667`
+    - Transaction trace URL: [Same tx as the deployment, done via multicall](https://dashboard.tenderly.co/tx/0x13fe777b10a2d3404d94314a0fe11db7b32b4ddf6fcdec1ccf5b66f70131e070?trace=0.3.1.7.0.1.0.0.2.0)
+    - Contract being called: Centrifuge Hub
+    - Function being called: [`updateSharePrice(PoolId poolId, ShareClassId scId, D18 pricePoolPerShare, uint64 computedAt)`](https://etherscan.io/address/0xA4A7Bb3831958463b3FE3E27A6a160F764341953#code#F1#L315)
+    - Function arguments:
+        1. `PoolId poolId`
+            - Argument value: `281474976710667`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Missing
+        2. `ShareClassId scId`
+            - Argument value: `0x000100000000000b0000000000000001`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Missing
+        3. `D18 pricePoolPerShare`
+            - Argument value: `993047025654000000`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Missing
+        4. `uint64 computedAt`
+            - Argument value: `1774440000`
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: Missing
+
+16. **Notify share price for the pool** `281474976710667` **centrifugeId `1`**
+
+    …skipped
+
+17. **Notify share price for the pool** `281474976710667` **centrifugeId `10`**
+
+    …skipped
 
 ## Pre-requirements
 
 1. Sky Core must increase the `gap` parameter in `MCD_IAM_AUTO_LINE` for `ALLOCATOR-BLOOM-A` from 250M to 500M.
     - Intended end goal: Allow Grove to draw up to 500M USDS per day without being bottlenecked by the autoline refresh cycle.
     - Why is it required to be done in advance: Grove's internal USDS mint rate limit is being set to 500M/day, but the DC-IAM gap currently caps draws at 250M per cycle — the two limits must be aligned.
-    - Proof that it was done or planned to be done: **[ADDED]** We've requested this change from BA labs on XX.XX.XXXX
+    - Proof that it was done or planned to be done: We've requested this change from BA labs on XX.XX.XXXX
 
 ## Proposed actions
 
 1. **Set LIMIT_USDS_MINT max to 500M USDS and slope to 500M USDS per day**
-    - Business reason behind this action: **[ADDED]** Support higher JTRSY deposit rate limits and growing allocation throughput without bottlenecking at the mint step.
+    - Business reason behind this action: Support higher JTRSY deposit rate limits and growing allocation throughput without bottlenecking at the mint step.
     - Who will perform this action: Grove spell
     - Important arguments:
         1. `uint256 maxAmount`
             - Argument value: `500M USDS`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
         2. `uint256 slope`
             - Argument value: `500M USDS per day`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
 
 2. **Register the JTRSY USDS Vault and configure deposit/withdrawal rate limits**
-    - Business reason behind this action: **[SKIPPED]**
+    - Business reason behind this action: …skipped
     - Who will perform this action: Grove spell
     - Important arguments:
         1. Vault
@@ -251,33 +347,33 @@ This update proposes eight changes across Ethereum, Avalanche, and Sky Core to e
             - External source of the value or an explanation of how this value can be verified, and who has to confirm it: JTRSY USDS Vault deployed above.
         2. Underlying asset
             - Argument value: `USDS`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** USDS from chainlog
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: USDS from chainlog
         3. Deposit max amount
             - Argument value: `500M USDS`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
         4. Deposit slope
             - Argument value: `500M USDS per day`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
         5. Withdrawal amount
             - Argument value: `Unlimited`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
 
 3. **Set USDS SkyLink (LayerZero V2) transfer rate limits from Ethereum to Avalanche, using the USDS OFT Adapter address to derive the rate limit key**
-    - Business reason behind this action: **[SKIPPED]**
+    - Business reason behind this action: …skipped
     - Who will perform this action: Grove spell
     - Important arguments:
         1. Asset
             - Argument value: [`eth:0x1e1D42781FC170EF9da004Fb735f56F0276d01B8`](https://etherscan.io/address/0x1e1D42781FC170EF9da004Fb735f56F0276d01B8)
-            - External source of the value: **[ADDED]** USDS_OFT from chainlog
+            - External source of the value: USDS_OFT from chainlog
         2. USDS SkyLink (ETH → AVAX) max amount
             - Argument value: `50M USDS`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
         3. USDS SkyLink (ETH → AVAX) slope
             - Argument value: `50M USDS per day`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
 
 4. **Replace the existing Avalanche ForeignController v1.6.0 with the pre-deployed v1.8.0 controller, migrate existing rate limits and integrations, and configure ALM Relayer 2 as a relayer on the new controller**
-    - Business reason behind this action: **[SKIPPED]**
+    - Business reason behind this action: …skipped
     - Who will perform this action: Grove spell
     - Important arguments:
         1. Existing ForeignController (to be replaced)
@@ -299,10 +395,10 @@ This update proposes eight changes across Ethereum, Avalanche, and Sky Core to e
             - External source of the value or an explanation of how this value can be verified, and who has to confirm it: USDS OFT Adapter on Avalanche from the [SkyLink Bridge to Avalanche forum post](https://forum.skyeco.com/t/skylink-bridge-to-avalanche/27825)
         2. USDS SkyLink (AVAX → ETH) max amount
             - Argument value: `20M USDS`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
         3. USDS SkyLink (AVAX → ETH) slope
             - Argument value: `20M USDS per day`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
 
 6. **Set the CCTP USDC transfer rate limit from Avalanche to Ethereum to unlimited (max and slope)**
     - Business reason behind this action: Remove the bottleneck on repatriating USDC from Avalanche back to Ethereum Mainnet
@@ -310,10 +406,10 @@ This update proposes eight changes across Ethereum, Avalanche, and Sky Core to e
     - Important arguments:
         1. CCTP USDC (AVAX → ETH) max amount
             - Argument value: `Unlimited`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
         2. CCTP USDC (AVAX → ETH) slope
             - Argument value: `Unlimited`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
 
 7. **Configure swap and LP rate limits for the USDS/USDC Curve Stableswap pool on Avalanche.**
     - Business reason behind this action: Provide liquidity and stablecoin swap capability on Avalanche for bridged USDS; key component for distributing bridged USDS liquidity
@@ -324,38 +420,38 @@ This update proposes eight changes across Ethereum, Avalanche, and Sky Core to e
             - External source of the value or an explanation of how this value can be verified, and who has to confirm it: New Curve Stableswap pool deployed above
         2. Swap max amount
             - Argument value: `5M USDS`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
         3. Swap slope
             - Argument value: `100M USDS`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
         4. Swap maxSlippage
             - Argument value: `0.1%`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
         5. LP deposit max amount
             - Argument value: `50M USDS`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
         6. LP deposit slope
             - Argument value: `50M USDS`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
         7. LP withdrawal amount
             - Argument value: `Unlimited`
-            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: **[ADDED]** To be confirmed by BA labs
+            - External source of the value or an explanation of how this value can be verified, and who has to confirm it: To be confirmed by BA labs
 
 ## Post-checks
 
-**[SKIPPED]**
+…skipped
 
 ## Technical risk self-assessment
 
-**[SKIPPED]**
+…skipped
 
 ## Emergency actions
 
-**[SKIPPED]**
+…skipped
 
 ## Monitoring
 
-**[SKIPPED]**
+…skipped
 
 ## Research and additional notes
 
