@@ -65,9 +65,8 @@ Do not modify the template files directly. When filling out a template, copy it 
 
 ### Technical Scope Template
 
-The Technical Scope Template is maintained by Core GovOps. All changes must be submitted as a Pull Request in this repository. Core Spell Teams may also propose changes. Every Pull Request requires approval from Core GovOps and at least one (1) Core Spell Team that is not the proposer.
-
+All changes must be submitted as a Pull Request in this repository and require two (2) approvals, one (1) from each Core Spell Team, before they can be merged.                                                                                                           
 ### Deployment Checklist
 
-The Deployment Checklist is maintained by Core GovOps. All changes must be submitted as a Pull Request in this repository. Core Spell Teams may also propose changes. Every Pull Request requires approval from Core GovOps and at least one (1) Core Spell Team that is not the proposer.
+All changes must be submitted as a Pull Request in this repository and require two (2) approvals, one (1) from each Core Spell Team, before they can be merged.   
 
