@@ -21,22 +21,18 @@ agent-spell-references/
 
 ### Technical Scope Template (`technical-scope-template.md`)
 
-**What it is:** A standardized template for announcing any infrastructure changes (on- or offchain) with enough technical detail for an external team to review without additional context.
-
-**Mandatory:** Yes — for any infrastructure change, including Spells, vault deployments, and other on- or offchain changes.
+**What it is:** A standardized template for announcing any infrastructure changes (on- or offchain) with enough technical detail for an external team to review without additional context. The filled-in Technical Scope must be submitted 
 
 **Security-sensitive sections:** The template introduces sections for Technical risk self-assessment, Emergency actions, and Monitoring. These sections enforce a rigorous security mindset by requiring teams to consider risks, emergency responses, and monitoring for every infrastructure change. Because these sections may contain information that could be exploited if publicly disclosed, they are handled through a separate private submission process.
 
-**When and where to submit:** By Wednesday, 16:00 UTC of week 1 of the Prime Spell Process. The completed template must be submitted to both:
+**Where to submit:** The filled-in template must be submitted through both public and private channels:
 
-- **Public:** All sections except the security-sensitive sections must be posted as a Forum post on the Sky Forum.
-- **Private:** The full template including the security-sensitive sections (Technical risk self-assessment, Emergency actions, Monitoring) must be submitted internally in a private repo that will be specified later. In the interim, the full template should be published as a HackMD and circulated with the relevant parties.
+- **Public:** All non-security-sensitive sections must be published as a Forum post on the Sky Forum. Please ensure that all security-sensitive sections are omitted. 
+- **Private:** The full template, including the security-sensitive sections (Technical Risk Self-Assessment, Emergency Actions, and Monitoring), must be submitted internally through a private repository to be designated at a later stage. Until that repository is established, the full template should be shared via HackMD and circulated only with the relevant parties.
 
 ### Deployment Checklist (`checklists/deployment-checklist.md`)
 
 **What it is:** A standardized checklist for contract deployments covering deployer hygiene, foundry setup, test deployments, and verification.
-
-**Mandatory:** Yes — for all contract deployments.
 
 **When to use:** For every contract deployment, whether part of a Spell or not.
 
@@ -44,9 +40,7 @@ agent-spell-references/
 
 ### Agent Spell Reviewer Checklist (`checklists/agent-spell-reviewer-checklist.md`)
 
-**What it is:** A standardized checklist defining the steps for Agent Spell Reviewers.
-
-**Mandatory:** Yes — for all Agent Spells, effective with the June 18, 2026 Executive Vote.
+**What it is:** A standardized checklist defining the steps for Agent Spell Reviewers. 
 
 **When to use:** For every Agent Spell.
 
@@ -70,9 +64,6 @@ git clone https://github.com/Atlas-Axis/agent-spell-references.git
 > ```
 
 Do not modify the template files directly. When filling out a template, copy it to a new file with a descriptive name (e.g., `technical-scope-may-2026-spell.md`) and work from the copy. This ensures `git pull` always updates the templates cleanly without merge conflicts.
-
-> [!TIP]
-> Remember to remove all notes and warnings from the templates before posting or submitting.
 
 ## Maintenance
 
