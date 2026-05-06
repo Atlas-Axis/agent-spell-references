@@ -28,7 +28,9 @@ agent-spell-references/
 **Where to submit:** The filled-in template must be submitted through both public and private channels:
 
 - **Public:** All non-security-sensitive sections must be published as a Forum post on the Sky Forum. Please ensure that all security-sensitive sections are omitted. 
-- **Private:** The full template, including the security-sensitive sections (Technical Risk Self-Assessment, Emergency Actions, and Monitoring), must be submitted internally through a private repository to be designated at a later stage. Until that repository is established, the full template should be shared via HackMD and circulated only with the relevant parties.
+- **Private:** The full template, including the security-sensitive sections (Technical Risk Self-Assessment, Emergency Actions, and Monitoring), must be submitted internally through a private repository to be designated at a later stage. Until that repository is established, the full template should be shared via HackMD to Core GovOps and any other relevant parties.
+
+For Technical Scopes associated with a Prime Spell, submissions must be completed by **Wednesday at 16:00 UTC during Week 1 of the Prime Spell Process**.
 
 ### Deployment Checklist (`checklists/deployment-checklist.md`)
 
