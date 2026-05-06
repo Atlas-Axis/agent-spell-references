@@ -1,6 +1,10 @@
 # Agent Spell References
 
-Canonical reference materials for Agent teams preparing and reviewing Spells and infrastructure deployments within the Sky Ecosystem.
+Canonical operational reference materials for Agent teams preparing, reviewing, and executing Spells and infrastructure deployments within the Sky Ecosystem.
+
+This repository represents the initial v1 set of canonical reference materials for Agent operational processes. Additional templates, examples, workflows, and guidance may be added over time as Agent onboarding and deployment processes mature.
+
+These requirements are intended to operationalize the relevant Atlas requirements and processes. Direct Atlas references will be added once the associated Atlas edits are finalized.
 
 ## Contents
 
@@ -21,14 +25,14 @@ agent-spell-references/
 
 ### Technical Scope Template (`technical-scope-template.md`)
 
-**What it is:** A standardized template for announcing any infrastructure changes (on- or offchain) with enough technical detail for an external team to review without additional context. The filled-in Technical Scope must be submitted 
+**What it is:** A standardized template for announcing any infrastructure changes (on- or offchain) with enough technical detail for an external team to review without additional context.
 
 **Security-sensitive sections:** The template introduces sections for Technical risk self-assessment, Emergency actions, and Monitoring. These sections enforce a rigorous security mindset by requiring teams to consider risks, emergency responses, and monitoring for every infrastructure change. Because these sections may contain information that could be exploited if publicly disclosed, they are handled through a separate private submission process.
 
 **Where to submit:** The filled-in template must be submitted through both public and private channels:
 
-- **Public:** All sections except the securiy-sensitive sections defined abovee must be published as a Forum post on the Sky Forum.
-- **Private:** The full template, including the security-sensitive sections (Technical Risk Self-Assessment, Emergency Actions, and Monitoring), must be submitted internally through a private repository to be designated at a later stage. Until that repository is established, the full template should be shared via HackMD to Core GovOps and any other relevant parties.
+- **Public:** All sections except the security-sensitive sections defined above must be published as a Forum post on the Sky Forum.
+- **Private:** The full template, including the security-sensitive sections (Technical Risk Self-Assessment, Emergency Actions, and Monitoring), must be submitted internally through a dedicated private repository. Until that repository is established, the full template should be shared via HackMD to Core GovOps and any other relevant parties.
 
 For Technical Scopes associated with a Prime Spell, submissions must be completed by **Wednesday at 16:00 UTC during Week 1 of the Prime Spell Process**.
 
@@ -42,7 +46,7 @@ For Technical Scopes associated with a Prime Spell, submissions must be complete
 
 ### Agent Spell Reviewer Checklist (`checklists/agent-spell-reviewer-checklist.md`)
 
-**What it is:** A standardized checklist defining the steps for Agent Spell Reviewers. 
+**What it is:** A standardized checklist defining the steps for Agent Spell Reviewers.
 
 **When to use:** For every Agent Spell.
 
