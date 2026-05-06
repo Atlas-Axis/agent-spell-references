@@ -11,7 +11,9 @@ These requirements are intended to operationalize the relevant Atlas requirement
 ```
 agent-spell-references/
 ├── technical-scope-template.md
-├── deployment-checklist.md
+├── checklists/
+│   ├── agent-spell-reviewer-checklist.md
+│   └── deployment-checklist.md
 ├── examples/
 │   ├── star-spell-technical-scope-example.md
 │   └── non-spell-technical-scope-example.md
@@ -34,13 +36,21 @@ agent-spell-references/
 
 For Technical Scopes associated with a Prime Spell, submissions must be completed by **Wednesday at 16:00 UTC during Week 1 of the Prime Spell Process**.
 
-### Deployment Checklist (`deployment-checklist.md`)
+### Deployment Checklist (`checklists/deployment-checklist.md`)
 
 **What it is:** A standardized checklist for contract deployments covering deployer hygiene, foundry setup, test deployments, and verification.
 
 **When to use:** For every contract deployment, whether part of a Spell or not.
 
 **Where to submit:** The completed checklist must be attached to the deployment script Pull Request or, if no Pull Request exists, documented in a GitHub issue within the repository of the deployed code.
+
+### Agent Spell Reviewer Checklist (`checklists/agent-spell-reviewer-checklist.md`)
+
+**What it is:** A standardized checklist defining the steps for Agent Spell Reviewers.
+
+**When to use:** For every Agent Spell.
+
+**Where to submit:** The completed checklist must be included in the Spell review Pull Request prior to Spell handover.
 
 ## Getting started
 
@@ -71,3 +81,6 @@ The Technical Scope Template is maintained by Core GovOps. All changes must be s
 
 The Deployment Checklist is maintained by Core GovOps. All changes must be submitted as a Pull Request in this repository and require two (2) approvals, one (1) from each Core Spell Team, before they can be merged.   
 
+### Agent Spell Reviewer Checklist
+
+Agent Spell Crafters and Reviewers, including external auditors, are encouraged to extend and improve the checklist as improvements are identified during Spell crafting. Any changes to the content of the checklist are submitted as Pull Requests to this repository and require two (2) approvals, one (1) from each Core Spell Team, before they can be merged.
