@@ -3,7 +3,7 @@
 > [!NOTE]
 > ### General rules on **filling out** the template
 > - No sections can be skipped or removed. If a section is non-applicable, provide a one-line explanation why it's not relevant.
-> - Note sections with hints should be removed from the filled-in template before posting.
+> - All notes and warnings should be removed from the filled-in template before posting or submitting.
 > - All addresses have to be in a checksummed format.
 
 ## Introduction
@@ -133,6 +133,9 @@
 
 ## Technical risk self-assessment
 
+> [!WARNING]
+> **SECURITY-SENSITIVE — DO NOT POST this section to the Forum. For private submission only.**
+
 > [!NOTE]
 > Outline the highest value that can be lost due to the basic misconfiguration, frontrunning risk, or undiscovered vulnerability in the new module, onboarded protocol, etc. List each risk as a separate point, together with its known mitigation or accumulated lindy.
 
@@ -146,6 +149,9 @@
 
 ## Emergency actions
 
+> [!WARNING]
+> **SECURITY-SENSITIVE — DO NOT POST this section to the Forum. For private submission only.**
+
 > [!NOTE]
 > List every relevant emergency action that can mitigate incorrectly performed infrastructure changes. For example, a link to the freezer with a staged transaction.
 
@@ -156,6 +162,9 @@
     - Is covered by monitoring:
 
 ## Monitoring
+
+> [!WARNING]
+> **SECURITY-SENSITIVE — DO NOT POST this section to the Forum. For private submission only.**
 
 > [!NOTE]
 > List every monitoring that was set up internally or by the external team.
