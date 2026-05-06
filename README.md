@@ -19,22 +19,20 @@ agent-spell-references/
 
 ## Agent Guide
 
-### Technical Scope Template
+### Technical Scope Template (`technical-scope-template.md`)
 
 **What it is:** A standardized template for announcing any infrastructure changes (on- or offchain) with enough technical detail for an external team to review without additional context.
 
 **Mandatory:** Yes — for any infrastructure change, including Spells, vault deployments, and other on- or offchain changes.
 
-**When to submit:** By Wednesday, 16:00 UTC of week 1 of the Prime Spell Process.
-
 **Security-sensitive sections:** The template introduces sections for Technical risk self-assessment, Emergency actions, and Monitoring. These sections enforce a rigorous security mindset by requiring teams to consider risks, emergency responses, and monitoring for every infrastructure change. Because these sections may contain information that could be exploited if publicly disclosed, they are handled through a separate private submission process.
 
-**Where to submit:** The completed template must be submitted to both:
+**When and where to submit:** By Wednesday, 16:00 UTC of week 1 of the Prime Spell Process. The completed template must be submitted to both:
 
 - **Public:** All sections except the security-sensitive sections must be posted as a Forum post on the Sky Forum.
 - **Private:** The full template including the security-sensitive sections (Technical risk self-assessment, Emergency actions, Monitoring) must be submitted internally in a private repo that will be specified later. In the interim, the full template should be published as a HackMD and circulated with the relevant parties.
 
-### Deployment Checklist
+### Deployment Checklist (`checklists/deployment-checklist.md`)
 
 **What it is:** A standardized checklist for contract deployments covering deployer hygiene, foundry setup, test deployments, and verification.
 
@@ -44,7 +42,7 @@ agent-spell-references/
 
 **Where to submit:** The completed checklist must be attached to the deployment script Pull Request or, if no Pull Request exists, documented in a GitHub issue within the repository of the deployed code.
 
-### Agent Spell Reviewer Checklist
+### Agent Spell Reviewer Checklist (`checklists/agent-spell-reviewer-checklist.md`)
 
 **What it is:** A standardized checklist defining the steps for Agent Spell Reviewers.
 
@@ -80,11 +78,11 @@ Do not modify the template files directly. When filling out a template, copy it 
 
 ### Technical Scope Template
 
-The Technical Scope Template is maintained by Core GovOps. Any changes to the content of the template require two (2) approvals, one (1) from Core GovOps and one (1) from a Core Spell Team.
+The Technical Scope Template is maintained by Core GovOps. All changes must be submitted as a Pull Request in this repository. Core Spell Teams may also propose changes. Every Pull Request requires approval from Core GovOps and at least one Core Spell Team that is not the proposer.
 
 ### Deployment Checklist
 
-The Deployment Checklist is maintained by Core GovOps. Any changes to the content of the checklist require two (2) approvals, one (1) from Core GovOps and one (1) from a Core Spell Team.
+The Deployment Checklist is maintained by Core GovOps. All changes must be submitted as a Pull Request in this repository. Core Spell Teams may also propose changes. Every Pull Request requires approval from Core GovOps and at least one Core Spell Team that is not the proposer.
 
 ### Agent Spell Reviewer Checklist
 
