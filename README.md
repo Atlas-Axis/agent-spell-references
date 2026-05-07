@@ -1,6 +1,4 @@
-# Agent Operational References
-
-Canonical operational reference materials for Agent Spell and infrastructure deployment processes within the Sky Ecosystem.
+# Agent Operational References.
 
 This repository represents the initial v1 set of canonical reference materials for Agent operational processes. Additional templates, examples, workflows, and guidance may be added over time as Agent onboarding and deployment processes mature. **Note:** The Agent Spell Reviewer Checklist currently remains maintained in its existing canonical location here: https://github.com/sky-ecosystem/pe-checklists/blob/master/spell/star-spell-reviewer-checklist.md. Agents and reviewers should continue using that version until further alignment on repository structure, and migration decisions is completed.
 
