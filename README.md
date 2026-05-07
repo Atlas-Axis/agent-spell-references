@@ -1,4 +1,4 @@
-# Agent Spell References
+# Agent Operational References
 
 Canonical operational reference materials for Agent Spell and infrastructure deployment processes within the Sky Ecosystem.
 
@@ -9,7 +9,7 @@ This repository is intended to operationalize the relevant Atlas requirements an
 ## Contents
 
 ```
-agent-spell-references/
+agent-operational-references/
 ├── technical-scope-template.md
 ├── deployment-checklist.md
 ├── examples/
@@ -47,7 +47,7 @@ For Technical Scopes associated with a Prime Spell, submissions must be complete
 Clone this repository:
 
 ```bash
-git clone https://github.com/Atlas-Axis/agent-spell-references.git
+git clone https://github.com/Atlas-Axis/agent-operational-references.git
 ```
 
 ## Before you start
@@ -55,7 +55,7 @@ git clone https://github.com/Atlas-Axis/agent-spell-references.git
 > [!IMPORTANT]
 > Before using any reference material, you must pull the latest version to ensure your copy is aligned with the source repository:
 > ```bash
-> cd agent-spell-references
+> cd agent-operational-references
 > git pull origin main
 > ```
 
