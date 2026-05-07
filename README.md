@@ -1,6 +1,6 @@
 # Agent Spell References
 
-Canonical operational reference materials for Agent teams preparing, reviewing, and executing Spells and infrastructure deployments within the Sky Ecosystem.
+Canonical operational reference materials for Agent teams preparing Spells and infrastructure deployments within the Sky Ecosystem.
 
 This repository represents the initial v1 set of canonical reference materials for Agent operational processes. Additional templates, examples, workflows, and guidance may be added over time as Agent onboarding and deployment processes mature.
 
