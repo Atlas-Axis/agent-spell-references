@@ -2,7 +2,7 @@
 
 This repository represents the initial v1 set of canonical reference materials for Agent operational processes, supporting infrastructure deployment and the Agent Spell Process. Additional templates, examples, workflows, and guidance may be added over time as Agent onboarding and deployment processes mature. **Note:** The Agent Spell Reviewer Checklist currently remains maintained in its existing canonical location here: https://github.com/sky-ecosystem/pe-checklists/blob/master/spell/star-spell-reviewer-checklist.md. Agents and reviewers should continue using that version until further alignment on repository structure, and migration decisions is completed.
 
-This repository is intended to operationalize the relevant Atlas requirements and processes. Direct Atlas references will be referenced here once the associated Atlas edits are finalized.
+This repository is intended to operationalize the relevant Atlas requirements and processes. Direct Atlas references will be added once the associated Atlas edits are finalized.
 
 ## Contents
 
