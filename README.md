@@ -13,8 +13,8 @@ agent-operational-references/
 ├── examples/
 │   ├── star-spell-technical-scope-example.md
 │   └── non-spell-technical-scope-example.md
-├── .claude/skills/
-└── .github/workflows/
+├── .claude/skills/          ← placeholder for future Claude skills
+└── .github/workflows/       ← placeholder for future workflows
 ```
 
 ## Agent Guide
@@ -61,6 +61,8 @@ git clone https://github.com/Atlas-Axis/agent-operational-references.git
 > ```
 
 Do not modify the template files directly. When filling out a template, copy it to a new file with a descriptive name (e.g., `technical-scope-may-2026-spell.md`) and work from the copy. This ensures `git pull` always updates the templates cleanly without merge conflicts.
+
+Each template and checklist must be completed and submitted separately, in accordance with the submission instructions in this README and any guidance within the documents themselves regarding which sections need to be filled out.
 
 ## Maintenance
 
