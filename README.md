@@ -28,9 +28,12 @@ agent-operational-references/
 **Where to submit:** The filled-in template must be submitted through both public and private channels:
 
 - **Public:** All sections except the security-sensitive sections defined above must be published as a Forum post on the Sky Forum.
-- **Private:** The full template, including the security-sensitive sections (Technical Risk Self-Assessment, Emergency Actions, and Monitoring), must be submitted internally through a dedicated private repository. Until that repository is established, the full template should be shared via HackMD to Core GovOps and any other relevant parties.
+- **Private:** The full template, including the security-sensitive sections (Technical Risk Self-Assessment, Emergency Actions, and Monitoring), must be submitted internally through a dedicated private repository. Until that repository is established, the full template should be shared via HackMD to the Executive Process Liaison and any other relevant parties.
 
-For Technical Scopes associated with a Prime Spell, submissions must be completed by **Wednesday at 16:00 UTC during Week 1 of the Prime Spell Process**.
+For Technical Scopes associated with a Prime Spell, both the Forum post and the private submission must be completed according to the following deadlines:
+
+- **Sky Governance path** (Prime Agents whose Root Edit Primitive is not yet operational): by **Wednesday, 16:00 UTC of Week 1** of the Prime Spell Process.
+- **Independent Governance path** (Prime Agents whose Root Edit Primitive is operational): by **end of Friday of Week 1** of the Prime Spell Process.
 
 ### Deployment Checklist (`deployment-checklist.md`)
 
