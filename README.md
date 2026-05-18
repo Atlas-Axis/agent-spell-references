@@ -53,7 +53,7 @@ ecosystem-operational-references/
 Clone this repository:
 
 ```bash
-git clone https://github.com/Atlas-Axis/agent-operational-references.git
+git clone https://github.com/Atlas-Axis/ecosystem-operational-references.git
 ```
 
 ## Before you start
@@ -61,7 +61,7 @@ git clone https://github.com/Atlas-Axis/agent-operational-references.git
 > [!IMPORTANT]
 > Before using any reference material, you must pull the latest version to ensure your copy is aligned with the source repository:
 > ```bash
-> cd agent-operational-references
+> cd ecosystem-operational-references
 > git pull origin main
 > ```
 
