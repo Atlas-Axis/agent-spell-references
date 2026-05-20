@@ -18,7 +18,9 @@ ecosystem-operational-references/
 │   └── technical-scope/
 │       ├── star-spell-technical-scope-example.md
 │       └── non-spell-technical-scope-example.md
-├── .claude/skills/          ← placeholder for future Claude skills
+├── .claude/skills/
+│   ├── prepare.md           ← guided setup for Technical Scope or Deployment Checklist
+│   └── pre-submission-review.md  ← validates completed documents before submission
 └── .github/workflows/       ← placeholder for future workflows
 ```
 
@@ -47,6 +49,21 @@ ecosystem-operational-references/
 **When to use:** For every contract deployment within the Sky Ecosystem.
 
 **Where to submit:** The completed checklist must be attached to the deployment script Pull Request or, if no Pull Request exists, documented in a GitHub issue within the repository of the deployed code.
+
+## Claude Skills
+
+This repository includes Claude Code skills that guide you through the preparation and review process. To use them, open Claude Code from the repo root.
+
+| Command | What it does |
+|---------|-------------|
+| `/prepare` | Creates a properly named copy of the Technical Scope Template or Deployment Checklist, walks you through each section, and runs a completion checklist before submission |
+| `/pre-submission-review` | Reviews a completed document against the template requirements, examples, and submission guidelines. Reports blockers and warnings. Prepares the Forum post version with security-sensitive sections stripped |
+
+**Typical flow:**
+1. Run `/prepare` and select your document type
+2. Fill in each section with the skill's guidance
+3. Run `/pre-submission-review` to validate before submitting
+4. Submit the public version to the Forum and the full version privately
 
 ## Getting started
 
